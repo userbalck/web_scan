@@ -15,9 +15,6 @@ import queue
 import threading
 
 
-# #http://dx.zjroom.com:7008/ad/daode
-
-
 
 headers={
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0',
@@ -31,7 +28,6 @@ headers={
     'Connection': 'close',
     'Content-Length': '14'
 }
-#'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0',
 headers2 = {
     'User-Agent':'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
 }
@@ -107,7 +103,7 @@ def mainthr():
 
 
 if __name__=='__main__':
-    url = 'http://www.fysps.com/'
+    url = 'http://www.***.com/'
     paht = 'config\\ASP.txt'
     dicc,lendd= readlocat(paht)
     print(lendd)
